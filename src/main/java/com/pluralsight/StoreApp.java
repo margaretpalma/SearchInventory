@@ -12,9 +12,8 @@ public class StoreApp {
         //todo: loops and display
 
         //%d decimal for price, %s string(getProductType) %.2f money (2 decimals),
-
         for(Product p : inventory){
-            System.out.printf("id: %d %s - Price: $%.2f\n", p.getProductId(), p.getProductType(), p.getProductPrice());
+            System.out.printf("Product ID: %d %s - Price: $%.2f\n", p.getProductId(), p.getProductType(), p.getProductPrice());
 
         }
 
