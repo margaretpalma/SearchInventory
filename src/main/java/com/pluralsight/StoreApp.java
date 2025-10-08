@@ -1,6 +1,5 @@
 package com.pluralsight;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class StoreApp {
     public static void main(String[] args) {
@@ -12,10 +11,12 @@ public class StoreApp {
 
         //todo: loops and display
 
+        //%d decimal for price, %s string(getProductType) %.2f money (2 decimals),
+
+        for(Product p : inventory){
+            System.out.printf("id: %d %s - Price: $%.2f\n", p.getProductId(), p.getProductType(), p.getProductPrice());
 
         }
-
-
 
     }
 
